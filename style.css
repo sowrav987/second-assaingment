@@ -1,3 +1,5 @@
+/* style-start */
+
 body{
     font-family: 'Poppins', sans-serif;
     
@@ -80,3 +82,14 @@ body{
     color: white;
     margin-top: 10%;
 }
+@media  screen and (max-width:700px) {
+    .camera-blog{
+        display: block;
+    }
+    .pupular-items{
+        grid-template-columns: repeat(3,1fr);
+        display: block;
+        align-items: center;
+    }
+}
+/* style-end */
