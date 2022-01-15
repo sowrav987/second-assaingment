@@ -1,19 +1,29 @@
 body{
     font-family: 'Poppins', sans-serif;
+    
+}
+.hed{
     margin-left:10% ;
     margin-right: 10%;
+  
 }
 .camera-blog{
     margin-top: 10%;
     display: flex;
+    margin-left:10% ;
+    margin-right: 10%;
   
+}
+.container{
+    margin-left:10% ;
+    margin-right: 10%;
 }
 
 .link-button{
     text-decoration: none;
     padding: 10px 40px;
     font-weight: 700;
-   background-color: rgb(199, 64, 109);
+   background-color:rgb(219, 73, 170) ;
    border-radius: 5px;
    color: white;
    
@@ -24,4 +34,49 @@ body{
         grid-template-columns: repeat(1,1fr);
         width: 100%;
     }
+}
+.popular{
+    text-align: center;
+    margin-top: 5%;
+
+}
+.pupular-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5%;
+}
+.items .items-banner img{
+    width: 250px;
+    height: 250px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color:#AEAEAE ;
+}
+.item-info{
+    display: flex;
+    align-items: center;
+    margin-top: -8%;
+   
+  
+}
+.see{
+    text-align: right;
+}
+.more{
+    text-decoration: none;
+    color: rgb(219, 73, 170);
+    
+}.foot{
+    text-align: center;
+}
+.foot{
+    background-color: rgb(17, 17, 83);
+    color: white;
+    margin-top: 10%;
 }
